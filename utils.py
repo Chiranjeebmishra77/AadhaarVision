@@ -115,7 +115,7 @@ def initializeTrackbars():
     cv2.namedWindow("Trackbars")
     cv2.resizeWindow("Trackbars", 360, 240)
     cv2.createTrackbar("Threshold1", "Trackbars", 65, 255, nothing)
-    cv2.createTrackbar("Threshold2", "Trackbars", 122, 255, nothing)
+    cv2.createTrackbar("Threshold2", "Trackbars", 95, 255, nothing)
 
 
 def valTrackbars():
@@ -123,3 +123,4 @@ def valTrackbars():
     Threshold1 = cv2.getTrackbarPos("Threshold1", "Trackbars")
     Threshold2 = cv2.getTrackbarPos("Threshold2", "Trackbars")
     return Threshold1, Threshold2
+
