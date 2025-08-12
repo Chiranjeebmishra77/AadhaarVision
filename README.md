@@ -29,10 +29,10 @@ This is achieved using:
 
 ## 📂 Project Structure
 AadhaarVision/
-**│-- main.py # Main script (runs the scanner)**
-**│-- utils.py # Utility functions (image stacking, contour detection, etc.)**
-**│-- Scanned/ # Saved Aadhaar scan images**
-**│-- README.md # Documentation**
+**│-- main.py** # Main script (runs the scanner)
+**│-- utils.py** # Utility functions (image stacking, contour detection, etc.)
+**│-- Scanned/** # Saved Aadhaar scan images
+**│-- README.md** # Documentation
 
 ---
 
