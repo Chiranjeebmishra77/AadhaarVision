@@ -29,20 +29,20 @@ This is achieved using:
 
 ## 📂 Project Structure
 AadhaarVision/
--│-- main.py # Main script (runs the scanner)
--│-- utils.py # Utility functions (image stacking, contour detection, etc.)
--│-- Scanned/ # Saved Aadhaar scan images
--│-- README.md # Documentation
+- │-- main.py # Main script (runs the scanner)
+- │-- utils.py # Utility functions (image stacking, contour detection, etc.)
+- │-- Scanned/ # Saved Aadhaar scan images
+- │-- README.md # Documentation
 
 ---
 
 ##📄 Example OCR Output
--✅ Saved: Scanned/myImage0.jpg
--Name: Chiranjeeb Mishra
--DOB: 14/08/2003
--Age: 22
--Gender: Male-
--Aadhaar Number: 5784 6789 2567
+- ✅ Saved: Scanned/myImage0.jpg
+- Name: Chiranjeeb Mishra
+- DOB: 14/08/2003
+- Age: 22
+- Gender: Male-
+- Aadhaar Number: 5784 6789 2567
 
 ---
 
